@@ -50,3 +50,5 @@ This project comprises two main scripts:
 ## License
 
 This project is freely available under the MIT License. For more details, see the `LICENSE` file in the repository.
+
+Thanks for being bad today. -NET
