@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    overflow-y: flex;
+    padding-top: 20px;
+}
+
+.pdf-display {
+    margin-left: 15%;
+    height: 100vh;
+    overflow: auto;
+    background-color: #000000;
+    background-image: url('./images/place_holder.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.pdf-thumbnail {
+    width: 80%;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    transition: transform 0.2s;
+}
+
+.pdf-thumbnail:hover {
+    transform: scale(1.03);
+}
