@@ -5,26 +5,21 @@ const pdfDirectory = './pdfs/';
 const imageDirectory = './images/';
 const outputHtml = './netWork.html';
 
-// Helper to format file paths for URL
 const formatPathForUrl = (filePath) => {
   return filePath.split(path.sep).join('/').split(' ').join('%20');
 };
 
-// Helper to escape single quotes in file names
 const escapeSingleQuotes = (str) => {
     return str.replace(/'/g, "\\'");
 };
 
-// Helper to normalize file names by removing specified characters and making lowercase
 const normalizeFileName = (fileName) => {
     return fileName.toLowerCase().replace(/[\(\)""',:&`~]/g, '');
 };
 
-// Read files from PDF and images directories
 const pdfFiles = fs.readdirSync(pdfDirectory).map(file => ({ original: file, normalized: normalizeFileName(file) }));
 const imageFiles = fs.readdirSync(imageDirectory).map(file => ({ original: file, normalized: normalizeFileName(file) }));
 
-// Map image files to their corresponding PDF
 const links = imageFiles.reduce((acc, { original: image, normalized: normalizedImage }) => {
   const baseName = normalizedImage.split('.')[0];
   const pdfFile = pdfFiles.find(({ normalized }) => normalized.startsWith(baseName));
@@ -39,7 +34,6 @@ const links = imageFiles.reduce((acc, { original: image, normalized: normalizedI
   return acc;
 }, {});
 
-// Start building the HTML content
 let htmlContent = `
 <!DOCTYPE html>
 <html lang="en">
@@ -52,7 +46,6 @@ let htmlContent = `
 <body>
 <div id="sidebar" class="sidebar">`;
 
-// Add thumbnails to the sidebar
 for (const [name, files] of Object.entries(links)) {
   const escapedName = escapeSingleQuotes(name);
   const escapedPdfPath = escapeSingleQuotes(files.pdf);
@@ -61,7 +54,6 @@ for (const [name, files] of Object.entries(links)) {
     <img class="pdf-thumbnail" src="${escapedImagePath}" alt="${escapedName}" onclick="openPDF('${escapedPdfPath}')">`;
 }
 
-// Finish the sidebar and start the PDF display area
 htmlContent += `
 </div>
 <div id="pdf-display" class="pdf-display">
@@ -71,5 +63,4 @@ htmlContent += `
 </body>
 </html>`;
 
-// Write the HTML content to the index.html file
 fs.writeFileSync(outputHtml, htmlContent);
