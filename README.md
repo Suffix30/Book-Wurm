@@ -12,3 +12,5 @@ this will cross check the pdf folder with the images folder for likeness in the 
 once the netWork.html is rebuilt your good to go and add another pdf and image or add a shyt load if ya want. 
 
 simple resource viewer. feel free to customize anything, just clone it if ya do or contribute to build this one. -NET
+
+oh yeah, right click the netWork.html and open with live server to view changes. 
