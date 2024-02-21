@@ -1,12 +1,24 @@
 {
   "name": "net-work",
   "version": "1.0.0",
-  "description": "",
+  "description": "A PDF networking tool to display documents across devices.",
   "main": "netWork.js",
   "scripts": {
+    "start": "node netWork.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suffix30/Book-Wurm.git"
+  },
+  "keywords": ["pdf", "networking", "web"],
+  "author": "Your Name",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.0.379"
+  }
 }
