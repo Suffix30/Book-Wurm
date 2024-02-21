@@ -33,11 +33,9 @@ function openPDF(pdfPath) {
     const pdfDisplay = document.getElementById('pdf-display');
 
     if (isMobile) {
-        // Mobile devices: Use Google Docs Viewer for compatibility
         const viewerUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(window.location.origin + '/' + pdfPath)}&embedded=true`;
         pdfDisplay.innerHTML = `<iframe src="${viewerUrl}" width="100%" height="100%" style="border: none;"></iframe>`;
     } else {
-        // Desktop: Use <object> tag
         pdfDisplay.innerHTML = `<object type="application/pdf" data="${pdfPath}" width="100%" height="100%"></object>`;
     }
 }
