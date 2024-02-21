@@ -1,17 +1,17 @@
-const pdfList = [
-    { title: "PDF Title 1", category: "Category1", path: "path/to/pdf1.pdf" },
-    { title: "PDF Title 2", category: "Category2", path: "path/to/pdf2.pdf" },
-];
+//const pdfList = [
+//    { title: "PDF Title 1", category: "Category1", path: "path/to/pdf1.pdf" },
+//    { title: "PDF Title 2", category: "Category2", path: "path/to/pdf2.pdf" },
+//];
 
 function filterByCategory(category) {
     const filteredList = category === 'All' ? pdfList : pdfList.filter(pdf => pdf.category === category);
     displayPDFThumbnails(filteredList);
 }
 
-document.getElementById('searchBar').addEventListener('input', (e) => {
-    const searchTerm = e.target.value.toLowerCase();
-    const filteredList = pdfList.filter(pdf => pdf.title.toLowerCase().includes(searchTerm));
-    displayPDFThumbnails(filteredList);
+//document.getElementById('searchBar').addEventListener('input', (e) => {
+//    const searchTerm = e.target.value.toLowerCase();
+//    const filteredList = pdfList.filter(pdf => pdf.title.toLowerCase().includes(searchTerm));
+//    displayPDFThumbnails(filteredList);//
 });
 
 function displayPDFThumbnails(list) {
