@@ -37,6 +37,7 @@ export function App() {
 
   const handleRefresh = () => {
     setIsLoading(true);
+    // Add a small delay to show the loading state
     setTimeout(() => {
       loadBooks();
     }, 500);
@@ -107,18 +108,18 @@ export function App() {
               <div className="flex items-center justify-center h-[50vh]">
                 <div className="text-center space-y-4">
                   <RefreshCw className="h-12 w-12 animate-spin mx-auto text-cyber-cyan" />
-                  <p className="cyber-text">Searching for ScoobySnakcs...</p>
+                  <p className="cyber-text">Searching for ScoobySnacks...</p>
                 </div>
               </div>
             ) : filteredBooks.length === 0 ? (
               <div className="flex items-center justify-center h-[50vh]">
                 <div className="text-center space-y-4">
-                  <p className="cyber-text">NO Clues Found</p>
+                  <p className="cyber-text">No ScoobySnacks Found</p>
                   {searchQuery ? (
-                    <p className="text-cyber-cyan/60">Have another ScoobySnack</p>
+                    <p className="text-cyber-cyan/60">Try a Snickers</p>
                   ) : (
                     <button onClick={handleRefresh} className="cyber-button">
-                      Search for Clues
+                      Check the Fridge
                     </button>
                   )}
                 </div>

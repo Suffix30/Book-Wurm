@@ -8,4 +8,5 @@ export interface FileSystemBook {
   pageCount: number;
 }
 
+// For backward compatibility
 export type PDFDocument = FileSystemBook;

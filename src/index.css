@@ -23,7 +23,6 @@
   }
   
   img {
-    image-rendering: -webkit-optimize-contrast;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;

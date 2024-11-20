@@ -95,6 +95,7 @@ export const BookRow: React.FC<BookRowProps> = ({ title, books, onSelect }) => {
                   alt={book.title}
                   className="book-cover"
                   loading="lazy"
+                  decoding="async"
                   onError={(e) => {
                     const img = e.target as HTMLImageElement;
                     img.style.display = 'none';

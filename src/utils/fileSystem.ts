@@ -1151,7 +1151,13 @@ export async function scanBooks(): Promise<FileSystemBook[]> {
       throw new Error('Failed to fetch books');
     }
     const books = await response.json();
-    return books;
+    
+    // Transform paths for local development
+    return books.map((book: FileSystemBook) => ({
+      ...book,
+      path: book.path.replace('/Book-Wurm/', '/'),
+      thumbnail: book.thumbnail ? book.thumbnail.replace('/Book-Wurm/', '/') : null
+    }));
   } catch (error) {
     console.error('Error scanning books:', error);
     return BOOKS; // Fallback to static list

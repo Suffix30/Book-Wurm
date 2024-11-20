@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "node server/index.js",
-    "build": "node scripts/generateBookList.js && tsc && vite build",
-    "refresh": "node scripts/generateBookList.js",
+    "build": "npm run generate-list && npm run build:app && npm run copy-assets",
+    "build:app": "tsc && vite build",
+    "generate-list": "node scripts/generateBookList.js",
+    "copy-assets": "node scripts/copyStaticAssets.js",
+    "refresh": "npm run generate-list",
     "find-missing": "node scripts/findMissingCovers.js",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "deploy": "npm run build"
   },
   "dependencies": {
     "express": "^4.18.3",

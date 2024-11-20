@@ -1,10 +1,10 @@
 import React from 'react';
-import type { FileSystemBook } from '../utils/fileSystem';
+import type { FileSystemBook } from '../types';
 
 interface PDFViewerProps {
   pdf: FileSystemBook;
 }
- 
+
 export const PDFViewer: React.FC<PDFViewerProps> = ({ pdf }) => {
   return (
     <div className="h-full p-4">
