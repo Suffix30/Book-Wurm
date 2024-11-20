@@ -76,14 +76,14 @@ export function App() {
                 className="cyber-input w-full"
               />
             </div>
-            <button
+            {/*<button
               onClick={handleRefresh}
               disabled={isLoading}
               className="cyber-button flex items-center gap-2"
             >
               <RefreshCw className={`h-5 w-5 ${isLoading ? 'animate-spin' : ''}`} />
               {isLoading ? 'SCANNING_' : 'REFRESH_'}
-            </button>
+            </button>*/}
           </div>
         </div>
       </header>
