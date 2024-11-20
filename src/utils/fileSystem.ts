@@ -1059,7 +1059,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "118",
     "title": "The Shellcoder's Handbook - Discovering and Exploiting Security Holes by Chris Anley, John Heasman, Felix Lindner and Gerardo Richarte",
     "path": "/Book-Wurm/pdfs/The Shellcoder's Handbook - Discovering and Exploiting Security Holes by Chris Anley, John Heasman, Felix Lindner and Gerardo Richarte.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/The Shellcoders Handbook.png",
     "author": "Chris Anley, John Heasman, Felix Lindner and Gerardo Richarte",
     "category": "programming",
     "pageCount": 0
