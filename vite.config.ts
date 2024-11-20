@@ -8,11 +8,15 @@ export default defineConfig({
     postcss: './postcss.config.js',
   },
   optimizeDeps: {
-    exclude: ['lucide-react']
+    exclude: ['lucide-react'],
   },
   server: {
     fs: {
-      allow: ['..']
-    }
-  }
+      allow: ['..'],
+    },
+  },
+  build: {
+    outDir: 'docs',
+    emptyOutDir: true,
+  },
 });
