@@ -4,7 +4,7 @@ export function normalizeFilename(filename: string): string {
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, ' ')
     .replace(/\s+/g, ' ')
-    .replace(/handbook|edition|volume|vol|part|by|and|the/g, '')
+    .replace(/handbook|edition|volume|vol|part|by|and|the|discovering|exploiting|security|holes/g, '')
     .trim();
 }
 
@@ -26,10 +26,13 @@ export function findMatchingImage(pdfName: string, images: string[]): string | n
     
     pdfWords.forEach(pdfWord => {
       if (imgWords.includes(pdfWord)) {
-        score += 2;
+        score += 3;
       } else {
         imgWords.forEach(imgWord => {
           if (pdfWord.includes(imgWord) || imgWord.includes(pdfWord)) {
+            score += 1;
+          }
+          if (levenshteinDistance(pdfWord, imgWord) <= 2) {
             score += 1;
           }
         });
@@ -37,12 +40,17 @@ export function findMatchingImage(pdfName: string, images: string[]): string | n
     });
 
     const longestCommonSubstring = findLongestCommonSubstring(normalizedPdf, normalizedImg);
-    score += longestCommonSubstring.length > 5 ? 2 : 0;
+    score += longestCommonSubstring.length > 5 ? 3 : 0;
     
     return {
       image: img,
       score,
-      normalizedImg
+      normalizedImg,
+      debug: {
+        pdfName: normalizedPdf,
+        imgName: normalizedImg,
+        matchScore: score
+      }
     };
   });
 
@@ -76,4 +84,24 @@ function findLongestCommonSubstring(str1: string, str2: string): string {
   }
 
   return s1.slice(endIndex - maxLength, endIndex);
+}
+
+function levenshteinDistance(str1: string, str2: string): number {
+  const matrix = Array(str2.length + 1).fill(null).map(() => Array(str1.length + 1).fill(null));
+
+  for (let i = 0; i <= str1.length; i++) matrix[0][i] = i;
+  for (let j = 0; j <= str2.length; j++) matrix[j][0] = j;
+
+  for (let j = 1; j <= str2.length; j++) {
+    for (let i = 1; i <= str1.length; i++) {
+      const substitutionCost = str1[i - 1] === str2[j - 1] ? 0 : 1;
+      matrix[j][i] = Math.min(
+        matrix[j][i - 1] + 1,
+        matrix[j - 1][i] + 1,
+        matrix[j - 1][i - 1] + substitutionCost
+      );
+    }
+  }
+
+  return matrix[str2.length][str1.length];
 }
