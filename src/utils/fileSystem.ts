@@ -141,7 +141,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "16",
     "title": "CEH v10 Certified Ethical Hacker Study Guide by Ric Messier",
     "path": "/Book-Wurm/pdfs/CEH v10 Certified Ethical Hacker Study Guide by Ric Messier.pdf",
-    "thumbnail": "/Book-Wurm/images/CEH v10.png",
+    "thumbnail": "/Book-Wurm/images/Certified Ethical Hacker CEH Foundation Guide.png",
     "author": "Ric Messier",
     "category": "security",
     "pageCount": 0
@@ -195,7 +195,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "22",
     "title": "Cybersecurity Attack and Defense Strategies  Infrastructure security with Red Team and Blue Team Tactics by Erdal Ozkaya and Yuri Diogenes",
     "path": "/Book-Wurm/pdfs/Cybersecurity Attack and Defense Strategies  Infrastructure security with Red Team and Blue Team Tactics by Erdal Ozkaya and Yuri Diogenes.pdf",
-    "thumbnail": "/Book-Wurm/images/Cybersecurity Attack and Defense Strategies.png",
+    "thumbnail": "/Book-Wurm/images/Hands On Red Team Tactics.png",
     "author": "Erdal Ozkaya and Yuri Diogenes",
     "category": "security",
     "pageCount": 0
@@ -213,7 +213,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "24",
     "title": "Dark Web - Exploring and Data Mining the Dark Side of the Web (Integrated Series in Information Systems (30)) by Hsinchun Chen",
     "path": "/Book-Wurm/pdfs/Dark Web - Exploring and Data Mining the Dark Side of the Web (Integrated Series in Information Systems (30)) by Hsinchun Chen.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Dark Web Exploring and Data Mining the Dark Side of the Web.png",
     "author": "Hsinchun Chen",
     "category": "other",
     "pageCount": 0
@@ -231,7 +231,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "26",
     "title": "Ethical Hacking 101 - How to conduct professional pentestings in 21 days or less! (How to hack) (Volume 1) by Karina Astudillo B.",
     "path": "/Book-Wurm/pdfs/Ethical Hacking 101 - How to conduct professional pentestings in 21 days or less! (How to hack) (Volume 1) by Karina Astudillo B..pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/ETHICAL HACKING 101 How to conduct professional pentestings in 21 days or less.png",
     "author": "Karina Astudillo B",
     "category": "security",
     "pageCount": 0
@@ -240,7 +240,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "27",
     "title": "Ethical Hacking With Kali Linux - Learn Fast How To Hack Like A Pro by HUGO HOFFMAN",
     "path": "/Book-Wurm/pdfs/Ethical Hacking With Kali Linux - Learn Fast How To Hack Like A Pro by HUGO HOFFMAN.pdf",
-    "thumbnail": "/Book-Wurm/images/Ethical Hacking With Kali Linux.png",
+    "thumbnail": "/Book-Wurm/images/HACKING WITH KALI LINUX The Practical Beginners Guide to Learn How To Hack With Kali Linux in One Day.png",
     "author": "HUGO HOFFMAN",
     "category": "security",
     "pageCount": 0
@@ -303,7 +303,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "34",
     "title": "Gray Hat Hacking - The Ethical Hacker's Handbook, Fifth Edition",
     "path": "/Book-Wurm/pdfs/Gray Hat Hacking - The Ethical Hacker's Handbook, Fifth Edition.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Gray Hat Hacking The Ethical Hackers Handbook Fifth Edition.png",
     "author": "Unknown",
     "category": "security",
     "pageCount": 0
@@ -312,7 +312,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "35",
     "title": "Gray Hat Hacking The Ethical Hacker's Handbook, Fourth Edition",
     "path": "/Book-Wurm/pdfs/Gray Hat Hacking The Ethical Hacker's Handbook, Fourth Edition.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Gray Hat Hacking the Ethical Hackers Handbook.png",
     "author": "Unknown",
     "category": "security",
     "pageCount": 0
@@ -321,7 +321,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "36",
     "title": "Hackers & Painters - Big Ideas From The Computer Age by Paul Graham",
     "path": "/Book-Wurm/pdfs/Hackers & Painters - Big Ideas From The Computer Age by Paul Graham.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hackers and Painters.png",
     "author": "Paul Graham",
     "category": "security",
     "pageCount": 0
@@ -330,7 +330,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "37",
     "title": "Hackers Beware - The Ultimate Guide to Network Security by Eric Cole",
     "path": "/Book-Wurm/pdfs/Hackers Beware - The Ultimate Guide to Network Security by Eric Cole.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hackers Beware The Ultimate Guide to Network Security.png",
     "author": "Eric Cole",
     "category": "security",
     "pageCount": 0
@@ -339,7 +339,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "38",
     "title": "Hacking - Beginner to Expert Guide to Computer Hacking, Basic Security, and Penetration Testing (Computer Science Series) by James Patterson",
     "path": "/Book-Wurm/pdfs/Hacking - Beginner to Expert Guide to Computer Hacking, Basic Security, and Penetration Testing (Computer Science Series) by James Patterson.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking Beginner to Expert Guide to Computer Hacking Basic Security and Penetration Testing.png",
     "author": "James Patterson",
     "category": "security",
     "pageCount": 0
@@ -348,7 +348,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "39",
     "title": "Hacking - Computer Hacking, Security Testing,Penetration Testing, and Basic Security! by Gary Hall and Erin Watson",
     "path": "/Book-Wurm/pdfs/Hacking - Computer Hacking, Security Testing,Penetration Testing, and Basic Security! by Gary Hall and Erin Watson.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking Beginner to Expert Guide to Computer Hacking Basic Security and Penetration Testing.png",
     "author": "Gary Hall and Erin Watson",
     "category": "security",
     "pageCount": 0
@@ -357,7 +357,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "40",
     "title": "Hacking - Networking and Security (2 Books in 1 - Hacking with Kali Linux & Networking for Beginners) by John Medicine",
     "path": "/Book-Wurm/pdfs/Hacking - Networking and Security (2 Books in 1 - Hacking with Kali Linux & Networking for Beginners) by John Medicine.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking  Networking and Security 2 Books in 1  Hacking with Kali Linux & Networking for Beginners.png",
     "author": "John Medicine",
     "category": "security",
     "pageCount": 0
@@ -366,7 +366,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "41",
     "title": "Hacking - The Art of Exploitation, 2nd Edition by Jon Erickson",
     "path": "/Book-Wurm/pdfs/Hacking - The Art of Exploitation, 2nd Edition by Jon Erickson.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking The Art of Exploitation 2nd Edition.png",
     "author": "Jon Erickson",
     "category": "security",
     "pageCount": 0
@@ -375,7 +375,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "42",
     "title": "Hacking Exposed - Network Security Secrets & Solutions, Third Edition (Hacking Exposed) by Joel Scambray, Stuart McClure and George Kurtz",
     "path": "/Book-Wurm/pdfs/Hacking Exposed - Network Security Secrets & Solutions, Third Edition (Hacking Exposed) by Joel Scambray, Stuart McClure and George Kurtz.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking Exposed Network Security Secrets & Solutions Third Edition.png",
     "author": "Joel Scambray, Stuart McClure and George Kurtz",
     "category": "security",
     "pageCount": 0
@@ -384,7 +384,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "43",
     "title": "Hacking Exposed Cisco Networks - Cisco Security Secrets & Solutions by Andrew Vladimirov, Konstantin Gavrilenko and Andrei Mikhailovsky",
     "path": "/Book-Wurm/pdfs/Hacking Exposed Cisco Networks - Cisco Security Secrets & Solutions by Andrew Vladimirov, Konstantin Gavrilenko and Andrei Mikhailovsky.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking Exposed Cisco Networks Cisco Security Secrets & Solutions.png",
     "author": "Andrew Vladimirov, Konstantin Gavrilenko and Andrei Mikhailovsky",
     "category": "security",
     "pageCount": 0
@@ -411,7 +411,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "46",
     "title": "Hacking the Hacker - Learn From the Experts Who Take Down Hackers by Roger A. Grimes",
     "path": "/Book-Wurm/pdfs/Hacking the Hacker - Learn From the Experts Who Take Down Hackers by Roger A. Grimes.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking the Hacker Learn from the Experts Who Take Down Hackers.png",
     "author": "Roger A",
     "category": "security",
     "pageCount": 0
@@ -420,7 +420,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "47",
     "title": "Hacking VoIP Exposed by David Endler, TippingPoint, Mark Collier and SecureLogix",
     "path": "/Book-Wurm/pdfs/Hacking VoIP Exposed by David Endler, TippingPoint, Mark Collier and SecureLogix.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking VoIP Exposed David Endler TippingPoint Mark Collier SecureLogix.png",
     "author": "David Endler, TippingPoint, Mark Collier and SecureLogix",
     "category": "security",
     "pageCount": 0
@@ -429,7 +429,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "48",
     "title": "Hacking with Kali Linux - A Beginners Guide to Ethical Hacking with Kali & Cybersecurity",
     "path": "/Book-Wurm/pdfs/Hacking with Kali Linux - A Beginners Guide to Ethical Hacking with Kali & Cybersecurity.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking with Kali Linux A Beginners Guide to Ethical Hacking with Kali & Cybersecurity.png",
     "author": "Unknown",
     "category": "security",
     "pageCount": 0
@@ -438,7 +438,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "49",
     "title": "Hacking with Kali Linux - A Comprehensive Beginner's Guide to Learn Ethical Hacking",
     "path": "/Book-Wurm/pdfs/Hacking with Kali Linux - A Comprehensive Beginner's Guide to Learn Ethical Hacking.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking with Kali Linux A Comprehensive Beginners Guide to Learn Ethical Hacking.png",
     "author": "Unknown",
     "category": "security",
     "pageCount": 0
@@ -447,7 +447,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "50",
     "title": "Hacking With Kali Linux - A step by step guide to Ethical hacking",
     "path": "/Book-Wurm/pdfs/Hacking With Kali Linux - A step by step guide to Ethical hacking.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/HACKING WITH KALI LINUX  A STEP BY STEP GUIDE TO ETHICAL HACKING.png",
     "author": "step guide to Ethical hacking",
     "category": "security",
     "pageCount": 0
@@ -456,7 +456,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "51",
     "title": "Hacking with Kali Linux - A Step by Step Guide to Learn the Basics of Linux Penetration",
     "path": "/Book-Wurm/pdfs/Hacking with Kali Linux - A Step by Step Guide to Learn the Basics of Linux Penetration.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking with Kali Linux A Step by Step Guide to Learn the Basics of Linux Penetration.png",
     "author": "Step Guide to Learn the Basics of Linux Penetration",
     "category": "security",
     "pageCount": 0
@@ -465,7 +465,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "52",
     "title": "Hacking with Kali Linux - A Step by Step Guide with Tips and Tricks to Help You Become an Expert Hacker",
     "path": "/Book-Wurm/pdfs/Hacking with Kali Linux - A Step by Step Guide with Tips and Tricks to Help You Become an Expert Hacker.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking with Kali Linux A Step by Step Guide with Tips and Tricks to Help You Become an Expert Hacker.png",
     "author": "Step Guide with Tips and Tricks to Help You Become an Expert Hacker",
     "category": "security",
     "pageCount": 0
@@ -474,7 +474,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "53",
     "title": "Hacking with Kali Linux - The Advanced Guide about CyberSecurity",
     "path": "/Book-Wurm/pdfs/Hacking with Kali Linux - The Advanced Guide about CyberSecurity.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hacking with Kali Linux The Advanced Guide about CyberSecurity to Learn the Secret Coding.png",
     "author": "Unknown",
     "category": "security",
     "pageCount": 0
@@ -483,7 +483,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "54",
     "title": "Hacking With Kali Linux - The Practical Beginner's Guide to Learn How To Hack With Kali Linux in One Day",
     "path": "/Book-Wurm/pdfs/Hacking With Kali Linux - The Practical Beginner's Guide to Learn How To Hack With Kali Linux in One Day.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/HACKING WITH KALI LINUX The Practical Beginners Guide to Learn How To Hack With Kali Linux in One Day.png",
     "author": "Unknown",
     "category": "security",
     "pageCount": 0
@@ -492,7 +492,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "55",
     "title": "Hands-On Red Team Tactics by Himanshu Sharma and Harpreet Singh",
     "path": "/Book-Wurm/pdfs/Hands-On Red Team Tactics by Himanshu Sharma and Harpreet Singh.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hands On Red Team Tactics.png",
     "author": "Himanshu Sharma and Harpreet Singh",
     "category": "other",
     "pageCount": 0
@@ -510,7 +510,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "57",
     "title": "Hash Crack - Password Cracking Manual (v2.0) by Joshua Picolet",
     "path": "/Book-Wurm/pdfs/Hash Crack - Password Cracking Manual (v2.0) by Joshua Picolet.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Hash Crack Password Cracking Manual v2 0.png",
     "author": "Joshua Picolet",
     "category": "other",
     "pageCount": 0
@@ -555,7 +555,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "62",
     "title": "KALI LINUX - A Complete Guide for Beginners",
     "path": "/Book-Wurm/pdfs/KALI LINUX - A Complete Guide for Beginners.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/KALI LINUX A Complete Guide for Beginners to Learn the Basics of Kali Linux and Wireless Network Hacking.png",
     "author": "Unknown",
     "category": "other",
     "pageCount": 0
@@ -564,7 +564,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "63",
     "title": "Kali Linux - A Comprehensive Step by Step Beginner's Guide",
     "path": "/Book-Wurm/pdfs/Kali Linux - A Comprehensive Step by Step Beginner's Guide.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Kali Linux A Comprehensive Step by Step Beginners Guide to Learn the Basics of Cybersecurity.png",
     "author": "Step Beginner's Guide",
     "category": "other",
     "pageCount": 0
@@ -573,7 +573,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "64",
     "title": "Kali Linux Revealed - Mastering the Penetration Testing Distribution by Jim O'Gorman, Mati Aharoni, and Raphael Hertzog",
     "path": "/Book-Wurm/pdfs/Kali Linux Revealed - Mastering the Penetration Testing Distribution by Jim O'Gorman, Mati Aharoni, and Raphael Hertzog.pdf",
-    "thumbnail": "/Book-Wurm/images/Kali Linux Revealed.png",
+    "thumbnail": "/Book-Wurm/images/Mastering Kali Linux for Advanced Penetration Testing.png",
     "author": "Jim O'Gorman, Mati Aharoni, and Raphael Hertzog",
     "category": "security",
     "pageCount": 0
@@ -600,7 +600,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "67",
     "title": "Linux Basics for Hackers - Getting Started with Networking, Scripting, and Security in Kali by OccupyTheWeb",
     "path": "/Book-Wurm/pdfs/Linux Basics for Hackers - Getting Started with Networking, Scripting, and Security in Kali by OccupyTheWeb.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Linux Basics for Hackers Getting Started with Networking, Scripting, and Security in Kali.png",
     "author": "OccupyTheWeb",
     "category": "security",
     "pageCount": 0
@@ -618,7 +618,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "69",
     "title": "Mastering Kali Linux for Advanced Penetration Testing by Robert W. Beggs",
     "path": "/Book-Wurm/pdfs/Mastering Kali Linux for Advanced Penetration Testing by Robert W. Beggs.pdf",
-    "thumbnail": "/Book-Wurm/images/Advanced Penetration Testing.png",
+    "thumbnail": "/Book-Wurm/images/Mastering Kali Linux for Advanced Penetration Testing.png",
     "author": "Robert W",
     "category": "security",
     "pageCount": 0
@@ -636,7 +636,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "71",
     "title": "Metasploit - The Penetration Tester's Guide by David Kennedy",
     "path": "/Book-Wurm/pdfs/Metasploit - The Penetration Tester's Guide by David Kennedy.pdf",
-    "thumbnail": "/Book-Wurm/images/Metasploit.png",
+    "thumbnail": "/Book-Wurm/images/Kali Linux Wireless Penetration Testing Beginners Guide.png",
     "author": "David Kennedy",
     "category": "security",
     "pageCount": 0
@@ -663,7 +663,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "74",
     "title": "Mobile Security Testing Guide (MSTG) by Bernhard Mueller, Sven Schleier, Jeroen Willemsen and The OWASP mobtile team",
     "path": "/Book-Wurm/pdfs/Mobile Security Testing Guide (MSTG) by Bernhard Mueller, Sven Schleier, Jeroen Willemsen and The OWASP mobtile team.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/OWASP Mobile Security Testing Guide.png",
     "author": "Bernhard Mueller, Sven Schleier, Jeroen Willemsen and The OWASP mobtile team",
     "category": "security",
     "pageCount": 0
@@ -681,7 +681,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "76",
     "title": "Nmap Cookbook - The Fat-free Guide to Network Scanning by Nicholas Marsh",
     "path": "/Book-Wurm/pdfs/Nmap Cookbook - The Fat-free Guide to Network Scanning by Nicholas Marsh.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Nmap Cookbook The Fat free Guide to Network Scanning.png",
     "author": "Nicholas Marsh",
     "category": "networking",
     "pageCount": 0
@@ -690,7 +690,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "77",
     "title": "NO BROKEN LINK - The Vulnerability of Telecommunication Infrastructure to Natural Hazards by Himmat Singh Sandhu and Siddhartha Raja",
     "path": "/Book-Wurm/pdfs/NO BROKEN LINK - The Vulnerability of Telecommunication Infrastructure to Natural Hazards by Himmat Singh Sandhu and Siddhartha Raja.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/NO BROKEN LINK The Vulnerability of Telecommunication.png",
     "author": "Himmat Singh Sandhu and Siddhartha Raja",
     "category": "other",
     "pageCount": 0
@@ -717,7 +717,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "80",
     "title": "Offensive Security. Wireless Attacks - WiFu v. 3.0",
     "path": "/Book-Wurm/pdfs/Offensive Security. Wireless Attacks - WiFu v. 3.0.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Offensive Security Wireless Attacks WiFu v 3 0.png",
     "author": "Unknown",
     "category": "security",
     "pageCount": 0
@@ -726,7 +726,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "81",
     "title": "Penetration Testing - 3 Manuscripts—Wireless Hacking, Tor and the Dark Net, and Powershell by Logan Styles",
     "path": "/Book-Wurm/pdfs/Penetration Testing - 3 Manuscripts—Wireless Hacking, Tor and the Dark Net, and Powershell by Logan Styles.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Wireless Hacking Logan Styles.png",
     "author": "Logan Styles",
     "category": "security",
     "pageCount": 0
@@ -735,7 +735,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "82",
     "title": "Penetration Testing A Hands-On Introduction to Hacking by Georgia Weidman",
     "path": "/Book-Wurm/pdfs/Penetration Testing A Hands-On Introduction to Hacking by Georgia Weidman.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Penetration Testing A Hands On Introduction to Hacking.png",
     "author": "Georgia Weidman",
     "category": "security",
     "pageCount": 0
@@ -762,7 +762,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "85",
     "title": "Practical Anti-virus Evasion by Daniel Sauder",
     "path": "/Book-Wurm/pdfs/Practical Anti-virus Evasion by Daniel Sauder.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Practical Anti virus Evasion.png",
     "author": "Daniel Sauder",
     "category": "other",
     "pageCount": 0
@@ -789,7 +789,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "88",
     "title": "Python Crash Course, 2nd Edition - A Hands-On, Project-Based Introduction to Programming by Eric Matthes",
     "path": "/Book-Wurm/pdfs/Python Crash Course, 2nd Edition - A Hands-On, Project-Based Introduction to Programming by Eric Matthes.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Python Crash Course 2nd Edition.png",
     "author": "Eric Matthes",
     "category": "programming",
     "pageCount": 0
@@ -825,7 +825,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "92",
     "title": "Real-World Bug Hunting - A Field Guide to Web Hacking by Peter Yaworski",
     "path": "/Book-Wurm/pdfs/Real-World Bug Hunting - A Field Guide to Web Hacking by Peter Yaworski.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Real World Bug Hunting.png",
     "author": "Peter Yaworski",
     "category": "security",
     "pageCount": 0
@@ -834,7 +834,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "93",
     "title": "Red Team - How to Succeed by Thinking Like the Enemy by Micah Zenko",
     "path": "/Book-Wurm/pdfs/Red Team - How to Succeed by Thinking Like the Enemy by Micah Zenko.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Red Team How to Succeed By Thinking Like the Enemy.png",
     "author": "Thinking Like the Enemy by Micah Zenko",
     "category": "other",
     "pageCount": 0
@@ -843,7 +843,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "94",
     "title": "Reversing Android Apps - Hacking and cracking Android apps is easy by Tobias Ospelt",
     "path": "/Book-Wurm/pdfs/Reversing Android Apps - Hacking and cracking Android apps is easy by Tobias Ospelt.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Reversing Android Apps Hacking and cracking Android apps.png",
     "author": "Tobias Ospelt",
     "category": "security",
     "pageCount": 0
@@ -852,7 +852,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "95",
     "title": "Rtfm - Red Team Field Manual 1.0 Edition by Ben Clark",
     "path": "/Book-Wurm/pdfs/Rtfm - Red Team Field Manual 1.0 Edition by Ben Clark.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Rtfm Red Team Field Manual 1 0 Edition.png",
     "author": "Ben Clark",
     "category": "other",
     "pageCount": 0
@@ -861,7 +861,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "96",
     "title": "SCTPscan - Finding entry points to SS7 Networks & Telecommunications Backbones by Philippe Langlois",
     "path": "/Book-Wurm/pdfs/SCTPscan - Finding entry points to SS7 Networks & Telecommunications Backbones by Philippe Langlois.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/SCTPscan Finding entry points to SS7.png",
     "author": "Philippe Langlois",
     "category": "networking",
     "pageCount": 0
@@ -870,7 +870,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "97",
     "title": "SIGNALING SYSTEM 7 (SS7) - SECURITY REPORT",
     "path": "/Book-Wurm/pdfs/SIGNALING SYSTEM 7 (SS7) - SECURITY REPORT.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/SIGNALING SYSTEM 7 SS7 SECURITY REPORT.png",
     "author": "Unknown",
     "category": "security",
     "pageCount": 0
@@ -879,7 +879,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "98",
     "title": "Signaling System 7 (SS7)",
     "path": "/Book-Wurm/pdfs/Signaling System 7 (SS7).pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Signaling System 7 SS7.png",
     "author": "Unknown",
     "category": "other",
     "pageCount": 0
@@ -906,7 +906,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "101",
     "title": "SS7 - Locate. Track. Manipulate. by Tobias Engel",
     "path": "/Book-Wurm/pdfs/SS7 - Locate. Track. Manipulate. by Tobias Engel.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/SS7 Locate Track Manipulate.png",
     "author": "Tobias Engel",
     "category": "other",
     "pageCount": 0
@@ -924,7 +924,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "103",
     "title": "Telecommunications Infrastructure - Security SS7 Signalling Security by Philippe Langlois",
     "path": "/Book-Wurm/pdfs/Telecommunications Infrastructure - Security SS7 Signalling Security by Philippe Langlois.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Attacking SS7 2009 Philipe Langlois P1security HES v10 key.png",
     "author": "Philippe Langlois",
     "category": "security",
     "pageCount": 0
@@ -933,7 +933,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "104",
     "title": "Telecommunications Infrastructure Security_Getting in the SS7 kingdom",
     "path": "/Book-Wurm/pdfs/Telecommunications Infrastructure Security_Getting in the SS7 kingdom.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/SCTPscan SS7.png",
     "author": "Unknown",
     "category": "security",
     "pageCount": 0
@@ -996,7 +996,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "111",
     "title": "The Car Hacker's Handbook - A Guide for the Penetration Tester by Craig Smith",
     "path": "/Book-Wurm/pdfs/The Car Hacker's Handbook - A Guide for the Penetration Tester by Craig Smith.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Google Hacking for Penetration Testers.png",
     "author": "Craig Smith",
     "category": "security",
     "pageCount": 0
@@ -1005,7 +1005,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "112",
     "title": "The Database Hacker's Handbook - Defending Database Servers by David Litchfield, Chris Anley, John Heasman and Bill Grindlay",
     "path": "/Book-Wurm/pdfs/The Database Hacker's Handbook - Defending Database Servers by David Litchfield, Chris Anley, John Heasman and Bill Grindlay.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/The Database Hackers.png",
     "author": "David Litchfield, Chris Anley, John Heasman and Bill Grindlay",
     "category": "security",
     "pageCount": 0
@@ -1014,7 +1014,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "113",
     "title": "The Hacker Playbook 3 - Practical Guide To Penetration Testing by Peter Kim",
     "path": "/Book-Wurm/pdfs/The Hacker Playbook 3 - Practical Guide To Penetration Testing by Peter Kim.pdf",
-    "thumbnail": "/Book-Wurm/images/The Hacker Playbook 3.png",
+    "thumbnail": "/Book-Wurm/images/Kali Linux Wireless Penetration Testing Beginners Guide.png",
     "author": "Peter Kim",
     "category": "security",
     "pageCount": 0
@@ -1041,7 +1041,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "116",
     "title": "The Mac Hacker's Handbook by Charlie Miller and Dino Dai Zovi",
     "path": "/Book-Wurm/pdfs/The Mac Hacker's Handbook by Charlie Miller and Dino Dai Zovi.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/The Mac Hackers Handbook.png",
     "author": "Charlie Miller and Dino Dai Zovi",
     "category": "security",
     "pageCount": 0
@@ -1050,7 +1050,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "117",
     "title": "The Mobile Application Hacker's Handbook by Dominic Chell, Tyrone Erasmus, Shaun Colley and Ollie Whitehouse",
     "path": "/Book-Wurm/pdfs/The Mobile Application Hacker's Handbook by Dominic Chell, Tyrone Erasmus, Shaun Colley and Ollie Whitehouse.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/The Mobile Application Hackers Handbook.png",
     "author": "Dominic Chell, Tyrone Erasmus, Shaun Colley and Ollie Whitehouse",
     "category": "security",
     "pageCount": 0
@@ -1068,7 +1068,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "119",
     "title": "The Web Application Hacker's Handbook - Finding and Exploiting Security Flaws, 2nd Edition by Dafydd Stuttard, Marcus Pinto",
     "path": "/Book-Wurm/pdfs/The Web Application Hacker's Handbook - Finding and Exploiting Security Flaws, 2nd Edition by Dafydd Stuttard, Marcus Pinto.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/The Web Application Hackers Handbook.png",
     "author": "Dafydd Stuttard, Marcus Pinto",
     "category": "security",
     "pageCount": 0
@@ -1086,7 +1086,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "121",
     "title": "Unauthorised Access - Physical Penetration Testing For IT Security Teams by Wil Allsopp, Kevin Mitnick",
     "path": "/Book-Wurm/pdfs/Unauthorised Access - Physical Penetration Testing For IT Security Teams by Wil Allsopp, Kevin Mitnick.pdf",
-    "thumbnail": "/Book-Wurm/images/Unauthorised Access.png",
+    "thumbnail": "/Book-Wurm/images/Python Penetration Testing for Developers.png",
     "author": "Wil Allsopp, Kevin Mitnick",
     "category": "security",
     "pageCount": 0
@@ -1095,7 +1095,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "122",
     "title": "Violent Python - A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers by TJ O'Connor",
     "path": "/Book-Wurm/pdfs/Violent Python - A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers by TJ O'Connor.pdf",
-    "thumbnail": "/Book-Wurm/images/Violent Python.png",
+    "thumbnail": "/Book-Wurm/images/Black Hat Python Python Programming for Hackers and Pentesters.png",
     "author": "TJ O'Connor",
     "category": "programming",
     "pageCount": 0
@@ -1104,7 +1104,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "123",
     "title": "Viruses, Hardware and Software Trojans - Attacks and Countermeasures by Anatoly Belous and Vitali Saladukha",
     "path": "/Book-Wurm/pdfs/Viruses, Hardware and Software Trojans - Attacks and Countermeasures by Anatoly Belous and Vitali Saladukha.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Viruses Hardware and Software Trojans.png",
     "author": "Anatoly Belous and Vitali Saladukha",
     "category": "hardware",
     "pageCount": 0
@@ -1113,7 +1113,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "124",
     "title": "Vulnerabilities of signaling system number 7 (SS7) to cyber attacks and how to mitigate against these vulnerabilities. by Bob Kamwendo",
     "path": "/Book-Wurm/pdfs/Vulnerabilities of signaling system number 7 (SS7) to cyber attacks and how to mitigate against these vulnerabilities. by Bob Kamwendo.pdf",
-    "thumbnail": null,
+    "thumbnail": "/Book-Wurm/images/Vulnerabilities of signaling system number 7 SS7.png",
     "author": "Bob Kamwendo",
     "category": "security",
     "pageCount": 0
@@ -1122,7 +1122,7 @@ export const BOOKS: FileSystemBook[] = [
     "id": "125",
     "title": "Web Hacking 101 - How to Make Money Hacking Ethically by Peter Yaworski",
     "path": "/Book-Wurm/pdfs/Web Hacking 101 - How to Make Money Hacking Ethically by Peter Yaworski.pdf",
-    "thumbnail": "/Book-Wurm/images/Web Hacking 101.png",
+    "thumbnail": "/Book-Wurm/images/ETHICAL HACKING 101 How to conduct professional pentestings in 21 days or less.png",
     "author": "Peter Yaworski",
     "category": "security",
     "pageCount": 0
@@ -1150,7 +1150,7 @@ export async function scanBooks(): Promise<FileSystemBook[]> {
     if (!response.ok) {
       throw new Error('Failed to fetch books');
     }
-    const books = await response.json();
+    const books = await response.json() as FileSystemBook[];
     
     // Transform paths for local development
     return books.map((book: FileSystemBook) => ({
