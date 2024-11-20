@@ -7,16 +7,15 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.js',
   },
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
-  server: {
-    fs: {
-      allow: ['..'],
-    },
-  },
   build: {
     outDir: 'docs',
     emptyOutDir: true,
-  },
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'lucide-react']
+        }
+      }
+    }
+  }
 });

@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "node server/index.js",
-    "build": "tsc && vite build",
+    "build": "node scripts/generateBookList.js && tsc && vite build",
+    "refresh": "node scripts/generateBookList.js",
+    "find-missing": "node scripts/findMissingCovers.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },

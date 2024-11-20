@@ -24,8 +24,11 @@
   
   img {
     image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
-    pointer-events: none;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    -webkit-font-smoothing: antialiased;
   }
 }
 
@@ -57,6 +60,20 @@
     @apply bg-cyber-black border border-cyber-cyan/30 rounded-lg overflow-hidden
            hover:border-cyber-cyan/60 hover:shadow-[0_0_15px_rgba(102,252,241,0.2)] 
            transition-all duration-300;
+  }
+
+  .book-cover {
+    @apply w-full h-full object-contain transition-all duration-300;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+
+  .book-cover-container {
+    @apply relative overflow-hidden;
+    background: rgba(10, 10, 15, 0.9);
   }
 }
 

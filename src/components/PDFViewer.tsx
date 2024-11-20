@@ -4,7 +4,7 @@ import type { FileSystemBook } from '../utils/fileSystem';
 interface PDFViewerProps {
   pdf: FileSystemBook;
 }
-
+ 
 export const PDFViewer: React.FC<PDFViewerProps> = ({ pdf }) => {
   return (
     <div className="h-full p-4">

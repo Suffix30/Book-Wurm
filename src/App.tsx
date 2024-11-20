@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Terminal, RefreshCw } from 'lucide-react';
 import { scanBooks } from './utils/fileSystem';
-import type { FileSystemBook } from './utils/fileSystem';
+import type { FileSystemBook } from './types';
 import { BookRow } from './components/BookRow';
 import { PDFViewer } from './components/PDFViewer';
 
@@ -34,6 +34,13 @@ export function App() {
   useEffect(() => {
     loadBooks();
   }, []);
+
+  const handleRefresh = () => {
+    setIsLoading(true);
+    setTimeout(() => {
+      loadBooks();
+    }, 500);
+  };
 
   const filteredBooks = books.filter(book => {
     const query = searchQuery.toLowerCase();
@@ -69,7 +76,7 @@ export function App() {
               />
             </div>
             <button
-              onClick={loadBooks}
+              onClick={handleRefresh}
               disabled={isLoading}
               className="cyber-button flex items-center gap-2"
             >
@@ -100,18 +107,18 @@ export function App() {
               <div className="flex items-center justify-center h-[50vh]">
                 <div className="text-center space-y-4">
                   <RefreshCw className="h-12 w-12 animate-spin mx-auto text-cyber-cyan" />
-                  <p className="cyber-text">SCANNING_LIBRARY...</p>
+                  <p className="cyber-text">Searching for ScoobySnakcs...</p>
                 </div>
               </div>
             ) : filteredBooks.length === 0 ? (
               <div className="flex items-center justify-center h-[50vh]">
                 <div className="text-center space-y-4">
-                  <p className="cyber-text">NO_BOOKS_FOUND</p>
+                  <p className="cyber-text">NO Clues Found</p>
                   {searchQuery ? (
-                    <p className="text-cyber-cyan/60">Try a different search term</p>
+                    <p className="text-cyber-cyan/60">Have another ScoobySnack</p>
                   ) : (
-                    <button onClick={loadBooks} className="cyber-button">
-                      SCAN_LIBRARY
+                    <button onClick={handleRefresh} className="cyber-button">
+                      Search for Clues
                     </button>
                   )}
                 </div>
@@ -134,5 +141,3 @@ export function App() {
     </div>
   );
 }
-
-export default App;

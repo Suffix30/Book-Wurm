@@ -1,11 +1,11 @@
 import React from 'react';
 import { X, Loader2 } from 'lucide-react';
-import { PDFDocument } from '../types';
+import { FileSystemBook } from '../types';
 
 interface SidebarProps {
-  pdfs: PDFDocument[];
-  selected: PDFDocument | null;
-  onSelect: (pdf: PDFDocument) => void;
+  pdfs: FileSystemBook[];
+  selected: FileSystemBook | null;
+  onSelect: (pdf: FileSystemBook) => void;
   onClose: () => void;
   isLoading: boolean;
 }
@@ -15,7 +15,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ pdfs, selected, onSelect, onCl
     return (
       <div className="w-72 bg-cyber-darkGray h-full border-r border-cyber-cyan/20 flex flex-col items-center justify-center">
         <Loader2 className="w-8 h-8 text-cyber-cyan animate-spin" />
-        <p className="mt-2 text-cyber-cyan">ScoobyDoo Where are YOU...</p>
+        <p className="mt-2 text-cyber-cyan">Searching for ScoobySnacks...</p>
       </div>
     );
   }
@@ -45,11 +45,14 @@ export const Sidebar: React.FC<SidebarProps> = ({ pdfs, selected, onSelect, onCl
                 } transition-all duration-200`}
             >
               <div className="relative w-full">
-                <img
-                  src={pdf.thumbnail}
-                  alt={pdf.title}
-                  className="w-full h-40 object-cover filter brightness-75"
-                />
+                {pdf.thumbnail && (
+                  <img
+                    src={pdf.thumbnail}
+                    alt={pdf.title}
+                    className="w-full h-40 object-cover filter brightness-75 book-cover"
+                    loading="lazy"
+                  />
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-cyber-darkGray/90 to-transparent" />
               </div>
               <div className="p-3 w-full bg-cyber-darkGray">

@@ -6,7 +6,7 @@ interface BookGridProps {
   books: FileSystemBook[];
   onSelect: (book: FileSystemBook) => void;
 }
-
+ 
 export const BookGrid: React.FC<BookGridProps> = ({ books, onSelect }) => {
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
